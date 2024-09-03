@@ -1,0 +1,33 @@
+<!-- Video de referencia: https://youtu.be/SBq-kXXn1PQ?si=p1dXd2_34lc-z2Mf4 -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/82e317bcf7.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="img/icons8-interruptor-de-luz-1-16.png">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Switch Theme</title>
+</head>
+<body>
+
+    <div >
+      
+      <input type="checkbox" class="checkbox" id="chk" />
+      <label class="label" for="chk">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+        <div class="ball"></div>
+      </label>
+    </div>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
